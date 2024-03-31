@@ -1,0 +1,74 @@
+body {
+    background-color: white;
+    color: black;
+}
+
+.Home {
+    position: relative;
+    top: 10px;
+    left: 777px;
+}
+
+.InstantRide {
+    position: relative;
+    top: 10px;
+    left: 867px;
+}
+
+.RentACar {
+    position: relative;
+    top: 10px;
+    left: 957px;
+}
+
+.About {
+    position: relative;
+    top: 10px;
+    left: 1047px;
+}
+
+a {
+    color: black; /* Sets the default color to white */
+    text-decoration: none; /* Removes the default underline */
+    transition: 0.4s; /* Smooth transition effect for color change */
+    font-size: 20px;
+    width: 0%;
+}
+
+a:hover {
+    color: #007bff; /* Changes the color to blue (#007bff) on hover */
+    text-decoration: underline 2px solid rgb(11, 3, 236);
+    text-underline-offset: 15px;
+    width: 100%;
+}
+
+.background{
+    position: relative;
+    top : 56px;
+    height: 506px;
+    width: 794px;
+    left: -50px;
+    display: inline;
+}
+
+.heading{
+    position: relative;
+    top : 150px;
+    left:750px;
+    right: 500px;
+    color : black;
+    display: inline;
+    font-size: 80px;
+    text-shadow: 5px 5px 9px rgb(79, 78, 78);
+}
+
+.slogan{
+    position: relative;
+    top : 240px;
+    left:347px;
+    right: 500px;
+    color : black;
+    display: inline;
+    font-size: 40px;
+    text-shadow: 5px 5px 9px rgb(79, 78, 78);
+}
