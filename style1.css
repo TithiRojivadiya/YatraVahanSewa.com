@@ -174,3 +174,32 @@ header{
 }
 
 
+.about-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 2rem;
+    align-items: center;
+    gap:1rem;
+    margin-top: 1rem;
+}
+.about-img img{
+    width: 1000px;
+    height: 500px;
+}
+.about-text span{
+    font-weight: 500;
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+.about-text p{
+    margin: 0.5rem 0 1.4rem;
+}
+/* .about-text .btn{
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border-radius: 0.5rem;
+}
+.about-text .btn{
+    background: rgb(205, 59, 2);
+} */
