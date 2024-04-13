@@ -43,6 +43,7 @@ header{
 }
 .logo img{
     width: 40px;
+    background: none;
 }
 .navbar{
     display: flex;
@@ -83,7 +84,7 @@ header{
     width: 100%;
     min-height: 100vh;
     position: relative;
-    background: url(gallery/bg2.jpg);
+    background: url(gallery/bg.webp);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -95,12 +96,14 @@ header{
 .text h1{
     font-size: 3rem;
     letter-spacing: 2px;
-    text-shadow: 1px 0px 9px white;
+    text-shadow: 1px 0px 9px rgb(100,100,100);
+    color: white;
+    font-size: 2rem;
 }
 .text span{
     font-size: 4rem;
-    color: rgb(12, 24, 71);
-    text-shadow: -6px 3px 7px white;
+    color: white;
+    text-shadow: 1px 0px 9px rgb(100, 100, 100);
 }
 
 .heading{
