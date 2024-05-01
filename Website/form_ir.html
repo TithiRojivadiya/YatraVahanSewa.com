@@ -10,7 +10,7 @@
 
     <section class="container">
         <header>Booking Form</header>
-        <form action="#" class="form" method="post">
+        <form action="#" class="form" method="get">
             <div class="input-box">
                 <label>Full Name</label>
                 <input type="text" placeholder="Enter full name" required>
@@ -24,7 +24,7 @@
 
             <div class="column">
                 <div class="input-box">
-                    <labe for="username">Phone Number</label>
+                    <label for="username">Phone Number</label>
                     <input type="text" placeholder="Enter phone number" id="username" name="username" maxlength="10" pattern="\d{10}" required>
                 </div>
 
@@ -59,14 +59,13 @@
                 <label>Destination Place</label>
                 <input type="text" placeholder="Enter your destination place line 1" required>
                 <input type="text" placeholder="Enter your destination place line 2" required>
-
-
             </div>
-            
-            <button>Submit</button>
-
+            <!-- <button onclick="window.location.href='t&c.html'">Submit</button> -->
+    <button id="submit-btn">Submit</button>
+            <!-- <a href="new.html"><button>Submit</button></a> -->
         </form>
     </section>
-    
+    <script src="formir.js"></script>
+    <!-- <script src="t&c.js"></script> -->
 </body>
 </html>
