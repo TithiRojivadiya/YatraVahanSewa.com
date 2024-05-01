@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(6,40,151);
+    padding: 20px;
+}
+
+
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+  }
+  
+  .terms {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #payment-options {
+    margin-top: 20px;
+  }
+  
+  #payment-options h2 {
+    margin-bottom: 10px;
+  }
+  
+  #payment-options select {
+    margin-bottom: 10px;
+  }
+  
+  #submit-payment {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #submit-payment:hover {
+    background-color: #0056b3;
+  }
