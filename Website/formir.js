@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
     // Get URL parameters
     var urlParams = getUrlParams();
-    
+
     // Get existing key and value parameters
     var key = urlParams['key'];
     var valueString = urlParams['value'];
@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
             // Construct the URL with key and value parameters
             var url = 't&c.html?key=' + encodeURIComponent(key) + '&value=' + encodeURIComponent(valueString);
-            
+
             // Redirect to the constructed URL
             window.location.href = url;
         });

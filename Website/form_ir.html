@@ -10,20 +10,22 @@
 
     <section class="container">
         <header>Booking Form</header>
+        <!-- <form action="#" class="form" method="post"> -->
         <form action="#" class="form" method="get">
             <div class="input-box">
                 <label>Full Name</label>
                 <input type="text" placeholder="Enter full name" required>
             </div>
-
             <div class="input-box">
                 <label>Email Address</label>
                 <input type="email" placeholder="Enter email address" required>
             </div>
-
+            </div>
+            
 
             <div class="column">
                 <div class="input-box">
+                    <!-- <labe for="username">Phone Number</label> -->
                     <label for="username">Phone Number</label>
                     <input type="text" placeholder="Enter phone number" id="username" name="username" maxlength="10" pattern="\d{10}" required>
                 </div>
@@ -32,10 +34,7 @@
                     <label>Birth Date</label>
                     <input type="date" placeholder="Enter birth date" required>
                 </div>
-
-
             </div>
-
             <div class="gender-box">
                 <h3>Gender</h3>
                 <div class="gender-option">
@@ -49,23 +48,32 @@
                     </div>
                 </div>
             </div>
-
             <div class="input-box">
                 <label>Current Address</label>
                 <input type="text" placeholder="Enter your current address line 1" required>
                 <input type="text" placeholder="Enter your current address line 2" required>
             </div>
+            
+            
+            
+            
             <div class="input-box">
                 <label>Destination Place</label>
                 <input type="text" placeholder="Enter your destination place line 1" required>
                 <input type="text" placeholder="Enter your destination place line 2" required>
+
+
             </div>
-            <button onclick="window.location.href='t&c.html'">Submit</button>
-        
-            
+
+            <!-- <button>Submit</button> -->
+
+            <!-- <button onclick="window.location.href='t&c.html'">Submit</button> -->
+    <button id="submit-btn">Submit</button>
+            <!-- <a href="new.html"><button>Submit</button></a> -->
         </form>
     </section>
+
     <script src="formir.js"></script>
-    
+    <!-- <script src="t&c.js"></script> -->
 </body>
-</html> 
+</html>
